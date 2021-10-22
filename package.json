@@ -1,0 +1,43 @@
+{
+  "name": "react-hookify",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "description": "A React hook for hookifying your React Components. Assign your component to a hook, and change it's props via methods without the need to declare specific states for each prop.",
+  "keywords": [
+    "react",
+    "hook",
+    "component"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest --coverage"
+  },
+  "peerDependencies": {
+    "react": ">16.8.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^17.0.31",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  },
+  "author": {
+    "name": "Bretner Szymon (ncpa0cpl)",
+    "url": "https://github.com/ncpa0cpl"
+  },
+  "repository": {
+    "url": "https://github.com/ncpa0cpl/react-hookify"
+  }
+}
